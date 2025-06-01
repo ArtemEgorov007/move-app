@@ -5,6 +5,7 @@ function App() {
 
     const handleSearch = (e) => {
         e.preventDefault()
+        console.log('Searching for:', searchTerm)
     }
 
     return (
