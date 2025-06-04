@@ -11,7 +11,7 @@ function App() {
                 <span className="text-indigo-400">Movie</span> Finder
             </h1>
             <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm}/>
-            <div className="min-h-screen bg-gray-50 p-6">
+            <div className="min-h-screen bg-gray-50">
                 <MoviesFetcher searchTerm={searchTerm} />
             </div>
         </>
